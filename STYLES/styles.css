@@ -37,7 +37,7 @@ body {
   margin-bottom: 25px;
 }
 .about_description {
-  ont-style: normal;
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -136,8 +136,7 @@ body {
 }
 
 /* education */
-.education {
-}
+
 .education_name {
   font-style: normal;
   font-weight: bold;
@@ -177,7 +176,7 @@ body {
 .sidebar_title {
   color: white;
   font-style: normal;
-  ont-weight: bold;
+  font-weight: bold;
   font-size: 22px;
   line-height: 27px;
   margin-bottom: 10px;
