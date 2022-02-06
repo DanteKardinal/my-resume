@@ -2,28 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="STYLES/styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
     <title>My Resume</title>
 </head>
 
 <body>
     <!--Main-->
-    <div class="main">
-        <!--Main content-->
+    <main class="main">
+        <!--About me-->
         <div class="main_content">
             <!--About user-->
-            <div class="about">
+            <section class="about">
                 <h2 class="about_position">FullStack Developer</h2>
                 <h1 class="about_name">Bohdan Dmytrenko</h1>
-                <p class="about_description">Even after the longest night, dawn comes</p>
-            </div>
+                <p class="about_description">Even after the longest night, sunrise comes</p>
+            </section>
             <!--Projects-->
-            <div class="projects">
+            <section class="projects">
                 <h3 class="titel">Projects</h3>
                 <ol class="projects_list">
                     <li class="project_item"> 
@@ -48,14 +48,14 @@
                         </span>
                     </li>
                 </ol>
-            </div>
+            </section>
             <!--Work Experience-->
-            <div class="work">
+            <section class="work">
                 <h3 class="titel">Work Experience</h3>
                 <!--Company 1-->
                 <div>
-                    <h4 class="work_position"> Поліцеський-системний адміністратор <span class="work_company"> Головне управління Національної поліції у Дніпропетровській області </span> </h4>
-                    <h5 class="period">October 2018 - up to now   <span class="line">|</span>    Ukraine</h5>
+                    <h3 class="work_position"> Поліцеський-системний адміністратор <span class="work_company"> Головне управління Національної поліції у Дніпропетровській області </span> </h3>
+                    <p class="period">October 2018 - up to now   <span class="line">|</span>    Ukraine</p>
                     <ul class="work_list">
                         <li class="work_item">
                             <span class="work_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -72,21 +72,25 @@
                         </li>
                     </ul>
                 </div>
-
-                </div>
-            </div>
-            <!--Education-->
-            <div class="education">
-                <h3 class="titel">Education</h3>
-                <h4 class="education_name">National University of Radioelectronics</h4>
-                <h4 class="education_profile">Management</h4>
-                <p class="education_time">September 2009 - June 2014   <span class="line">|</span>   Country</p>
-            </div>
+            </section>
         </div>
 
-        <!--Sidebar-->
-        <aside class="sidebar">
-            <object width="370" height="480" data="img/photo_2021-09-20_12-29-57.jpg" class="photo"></object>
+        <!--Education-->
+        <section class="education">
+            <h2 class="titel">Education</h2>
+            <p class="education_name">National University of Radioelectronics</p>
+            <p class="education_profile">Management</p>
+            <p class="education_time">September 2009 - June 2014 <span class="line">|</span>Country</p>
+        </section>
+    </main>
+
+    <!--Sidebar-->
+    <aside class="sidebar">
+            <img
+            src="./images/my-photo.jpg"
+            alt="Photo resumes"
+            width="370"
+            />
             <!--Contacts-->
             <div class="contacts">
                 <h3 class="sidebar_title">Contacts</h3>
@@ -100,7 +104,7 @@
                 </div>
             </div>
             <!--Tech skills-->
-            <div class="tech_skills">
+            <section class="tech_skills">
                 <h3 class="sidebar_title">Tech skills</h3>
                 <ul class="tech_skills_list">
                     <li class="tech_skills_item"> <span class="tech_skills_text">HTML5</span> </li>
@@ -111,9 +115,9 @@
                     <li class="tech_skills_item"> <span class="tech_skills_text">React.js</span> </li>
                     <li class="tech_skills_item"> <span class="tech_skills_text">Node.js</span> </li>
                 </ul>
-            </div>
+            </section>
             <!--Soft skills-->
-            <div class="soft_skills">
+            <section class="soft_skills">
                 <h3 class="sidebar_title">Soft skills</h3>
                 <ul class="soft_skills_list">
                     <li class="soft_skills_item"> <span class="soft_skills_text">Scrum</span> </li>
@@ -121,9 +125,8 @@
                     <li class="soft_skills_item"> <span class="soft_skills_text">GTD</span> </li>
                     <li class="soft_skills_item"> <span class="soft_skills_text">Teamwork</span> </li>
                 </ul>
-            </div>
-        </aside>
-    </div>
-
+            </section>
+    </aside>
+    
 </body>
 </html>

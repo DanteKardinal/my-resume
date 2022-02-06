@@ -136,7 +136,6 @@ body {
 }
 
 /* education */
-
 .education_name {
   font-style: normal;
   font-weight: bold;
@@ -165,11 +164,6 @@ body {
 .sidebar {
   background-color: #1e2939;
   padding-top: 40px;
-  width: 370px;
-}
-
-/* Img */
-.photo {
   width: 370px;
 }
 
