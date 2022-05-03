@@ -1,0 +1,31 @@
+/* project styles */
+.projects {
+    margin-bottom: 50px;
+}
+
+.projects_list {
+    padding: 0;
+    margin-left: 15px;
+}
+
+.project_item,
+.project_bracket {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.project_site,
+.project_link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.project_link {
+    margin-left: 10px;
+}

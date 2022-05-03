@@ -1,2 +1,14 @@
+@import './utils/common';
+@import './utils/variables';
+
+// Common information
+@import './components/about';
+@import './components/projects';
+@import './components/work-experience';
 @import './components/education';
-@import './components/sidebar';
+
+// Sidebar
+@import './components/sidebar/sidebar';
+@import './components/sidebar/contacts';
+@import './components/sidebar/tech-skills';
+@import './components/sidebar/soft-skills';
