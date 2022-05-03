@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/components/_education.scss",
+        "../sass/components/_sidebar.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
