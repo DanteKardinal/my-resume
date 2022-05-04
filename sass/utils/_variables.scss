@@ -1,0 +1,29 @@
+@function getColorText($key) {
+    @return map-get($color, $key);
+}
+
+$color: ('primary': #000000,
+    'secondary': #fb6d3a,
+    'text': #595959,
+    'period': #a8a8a8,
+    'white': #ffffff,
+    'contacts-sidebar': #cbcbcb,
+    'hover': #2196f3,
+);
+
+$bgc: ('backdrop': rgba(0, 0, 0, 0.2),
+    'primary-white': #ffffff,
+    'bgc-blue': #2196f3,
+    'portfolio-hover': rgba(33, 150, 243, 0.9),
+    'button-hover': #188CE8,
+);
+
+$primary-font: 'Montserrat',
+sans-serif;
+$primary-letter-spacing: 0.03em;
+
+$border-form-color: #2196f3;
+$border-card-color: #eeeeee;
+
+$card-set-gap: 30px;
+$animation-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
