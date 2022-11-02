@@ -188,6 +188,7 @@ body {
 .sidebar {
   background-color: #1e2939;
   padding-top: 40px;
+  padding-bottom: 40px;
   width: 370px;
 }
 
@@ -195,6 +196,7 @@ body {
   .sidebar {
     margin-left: auto;
     margin-right: auto;
+    width: auto;
   }
 }
 
@@ -205,6 +207,14 @@ body {
   font-size: 22px;
   line-height: 27px;
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 479px) {
+  .sidebar_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .contacts,
