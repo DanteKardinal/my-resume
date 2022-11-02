@@ -1,12 +1,14 @@
 body {
-    display: flex;
-    flex-direction: row-reverse;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    // font-family: "Montserrat", sans-serif;
+    // background-color: #f5f7fa;
 
-    font-family: "Montserrat", sans-serif;
-    background-color: #f5f7fa;
+    @media screen and (min-width: $desktop){
+        // display: flex;
+        // flex-direction: row-reverse;
+        // max-width: 1200px;
+        // margin-left: auto;
+        // margin-right: auto;
+    }
 }
 
 .main {
